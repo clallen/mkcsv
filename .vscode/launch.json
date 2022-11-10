@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "My Debug",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/mkcsv.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["col1", "col2", "col3", "col4", "col5"]
+        }
+    ]
+}
